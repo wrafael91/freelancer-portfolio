@@ -88,7 +88,6 @@ body {
     height: 100vh;
     padding: 80px 0;
     background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
-
 }
 
 .hero__main {
@@ -276,6 +275,7 @@ body {
     margin-bottom: 30px;
     width: 60px;
     height: 60px;
+    border: 1px solid #fff;
 }
 
 .footer__icon.fab {
@@ -294,11 +294,10 @@ body {
     color: #fff;
     margin-bottom: 20px;
     margin-right: 10px;
-    text-decoration: none;
 }
 
 .footer__link:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .footer__img {
@@ -317,6 +316,12 @@ body {
         padding-top: 50px;
     }
     
+    .title {
+        font-size: 2rem;
+    }
+
+    /* Sección Navbar */
+
     .header {
         height: 80px;
     }
@@ -364,5 +369,135 @@ body {
 
     .nav-toggle:focus:not(:focus-visible) {
         outline: none;
+    }
+
+    /* Sección Hero */
+
+    .hero {
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .hero__main {
+        justify-content: center;
+    }
+
+    .hero__img {
+        width: 60%;
+        margin-bottom: 50px;
+    }
+
+    .hero__picture {
+        max-width: 85%;
+    }
+
+    .hero__texts {
+        width: 100%;
+    }
+
+    .hero__title {
+        font-size: 2.5rem;
+    }
+
+    /* Sección Sobre Mí */
+
+    .about__texts {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .about__img {
+        width: 80%;
+        margin: 30px auto;
+    }
+
+    /* Sección Skills */
+
+    .skills__container {
+        justify-content: space-between;
+    }    
+
+    /* Sección Proyectos */
+
+    .portfolio__card {
+        width: 45%;
+        margin-bottom: 30px;
+    }
+
+    /* Footer */
+
+    .footer__container {
+        flex-direction: column;
+    }
+
+    .footer__img {
+        order: -1;
+        width: 45%;
+        margin-bottom: 30px;
+    }
+
+    .footer__picture {
+        width: 100%;
+    }
+
+    .footer__texts {
+        width: 100%;
+    }
+}
+
+@media (max-width: 550px) {
+
+    .title {
+        font-size: 1.8rem;
+    }
+
+    /* Sección Hero */
+
+    .hero__img {
+        width: 85%;
+    }
+
+    .hero__picture {
+        width: 100%;
+    }
+
+    .hero__title {
+        font-size: 2.2rem;
+    }
+
+    /* Sección Sobre Mí */
+
+    .about__texts {
+        width: 100%;
+    }
+
+    /* Sección Proyectos */
+
+    .portfolio__card {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    /* Sección Skills */
+
+    .skills__container {
+        justify-content: space-around;
+    }
+
+    .skills__picture {
+        width: 35%;
+        margin-bottom: 30px;
+    }
+
+    /* Footer */
+
+    .footer__img {
+        width: 90%;
+    }
+
+    .footer__picture {
+        max-width: 330px;
+        margin-bottom: 40px;
     }
 }
