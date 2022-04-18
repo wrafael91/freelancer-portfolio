@@ -202,6 +202,9 @@ body {
 }
 
 .portfolio__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 27%;
     background: #fff;
     height: auto;
@@ -218,7 +221,7 @@ body {
 }
 
 .portfolio__texts {
-    padding: 30px 20px 40px;
+    padding: 30px 20px 10px;
 }
 
 .portfolio__title {
@@ -233,14 +236,18 @@ body {
 }
 
 .portfolio__cta {
-    display: block;
+    display: inline-block;
+    width: 80%;
+    padding: 15px;
     background: #341f97;
     color: #fff;
     text-decoration: none;
-    padding: 15px 0;
     border-radius: 30px;
     text-align: center;
+    margin-top: auto;
+    margin-bottom: 30px;
 }
+
 
 /* Footer */
 
