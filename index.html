@@ -18,21 +18,21 @@
                 <i class="fas fa-bars"></i>
             </button>
             <ul class="nav-menu">
-                <li class="nav-menu-item"><a href="#" class="nav-menu-link">Inicio</a></li>
-                <li class="nav-menu-item"><a href="#" class="nav-menu-link">Sobre mí</a></li>
-                <li class="nav-menu-item"><a href="#" class="nav-menu-link">Skills</a></li>
-                <li class="nav-menu-item"><a href="#" class="nav-menu-link">Proyectos</a></li>
-                <li class="nav-menu-item"><a href="#" class="nav-menu-link">Contacto</a></li>
+                <li class="nav-menu-item"><a href="#hero" class="nav-menu-link">Inicio</a></li>
+                <li class="nav-menu-item"><a href="#sobremi" class="nav-menu-link">Sobre mí</a></li>
+                <li class="nav-menu-item"><a href="#skills" class="nav-menu-link">Skills</a></li>
+                <li class="nav-menu-item"><a href="#proyectos" class="nav-menu-link">Proyectos</a></li>
+                <li class="nav-menu-item"><a href="#contacto" class="nav-menu-link">Contacto</a></li>
             </ul>
         </nav>
     </header>
     
     <header class="hero">
-        <section class="hero__main container">
+        <section class="hero__main container" id="hero">
             <div class="hero__texts">
                 <h1 class="hero__title">William Manchabajoy</h1>
                 <h2 class="hero__copy">Desarrollador Web Frontend</h2>
-                <a href="#" class="hero__cta">Saber más</a>
+                <a href="#sobremi" class="hero__cta">Saber más</a>
             </div>
             <figure class="hero__img">
                 <img src="img/undraw_heatmap_uyye.svg" alt="imagen desarrollo web - seccion hero" class="hero__picture">
@@ -42,7 +42,7 @@
     </header>
 
     <main class="main">
-        <section class="about container">
+        <section class="about container" id="sobremi">
             <div class="about__texts">
                 <h2 class="title">Sobre mí</h2>
                 <p class="about__paragraph">Soy un Desarrollador Web Frontend
@@ -61,7 +61,7 @@
             </figure>
         </section>
 
-        <section class="skills">
+        <section class="skills" id="skills">
             <div class="container">
                 <h2 class="title">Skills</h2>
                 <div class="skills__container">
@@ -73,7 +73,7 @@
             </div>
         </section>
 
-        <section class="portfolio">
+        <section class="portfolio" id="proyectos">
             <div class="portfolio__container container">
                 <h2 class="title">Proyectos</h2>
                 <div class="portfolio__cards">
@@ -124,18 +124,18 @@
     </main>
 
     <footer class="footer">
-        <div class="footer__container container">
+        <section class="footer__container container" id="contacto">
             <div class="footer__texts">
                 <h2 class="title">Contáctame</h2>
                 <div class="footer__icons">
-                    <a href="#" class="footer__icon fab fa-twitter"></a>
-                    <a href="#" class="footer__icon fab fa-linkedin-in"></a>
-                    <a href="#" class="footer__icon fab fa-instagram"></a>
+                    <a href="https://twitter.com/wrafael_mp" class="footer__icon fab fa-twitter" target="_blank"></a>
+                    <a href="https://www.linkedin.com/in/william-manchabajoy/" class="footer__icon fab fa-linkedin-in" target="_blank"></a>
+                    <a href="https://www.instagram.com/wrafael_mp/" class="footer__icon fab fa-instagram" target="_blank"></a>
                 </div>
                 <nav class="footer__nav">
-                    <a href="#" class="footer__link">Inicio</a>
-                    <a href="#" class="footer__link">Sobre mí</a>
-                    <a href="#" class="footer__link">Proyectos</a>
+                    <a href="#hero" class="footer__link">Inicio</a>
+                    <a href="#sobremi" class="footer__link">Sobre mí</a>
+                    <a href="#proyectos" class="footer__link">Proyectos</a>
                 </nav>
                 <p class="footer__copy">Derechos Reservados &copy; 2022 - William Manchabajoy</p>
             </div>
@@ -143,10 +143,8 @@
             <figure class="footer__img">
                 <img src="img/undraw_phone_call_re_hx6a.svg" alt="imagen de contacto" class="footer__picture">
             </figure>
-        </div>
+        </section>
     </footer>
-
-    
 
     <script defer src="index.js" type="text/javascript"></script>
 </body>

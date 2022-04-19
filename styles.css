@@ -4,7 +4,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* outline: 3px solid red; */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section[id] {
+    scroll-margin-top: 100px;
 }
 
 .container {
@@ -75,8 +82,7 @@ body {
     padding: 0 30px;
 }
 
-.nav-menu-link:hover,
-.nav-menu-link_active {
+.nav-menu-link:hover {
     background-color: #341f97;
     height: auto;
     transition: .5s;
@@ -133,6 +139,18 @@ body {
     border-radius: 30px;
     font-size: 19px;
     box-shadow: 0 0 10px rgba(0, 0, 0,.5);
+    transition: all 0.3s ease 0s;
+}
+
+.hero__cta:hover {
+    background: #fff;
+    color: #341f97;
+    font-weight: 500;
+    transform: translateY(-7px);
+}
+
+.hero__cta:active {
+    transform: translateY(-1px);
 }
 
 /* Sección Sobre Mí */
@@ -247,6 +265,12 @@ body {
     margin-bottom: 30px;
 }
 
+.portfolio__cta:hover {
+    background: #fff;
+    border: 1px solid #341f97;
+    color: #341f97;
+}
+
 
 /* Footer */
 
@@ -347,11 +371,6 @@ body {
         left: 100%;
         transition: left .3s;
     }
-
-    /* .nav-menu-link_active,
-    .nav-menu-link:hover {
-        background-color: #764ba2;
-    } */
 
     .nav-menu-item {
         line-height: 80px;
