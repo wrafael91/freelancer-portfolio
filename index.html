@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="normalize.css">
     <script src="https://kit.fontawesome.com/34277e9ecf.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>WRMP - Frontend Developer</title>
 </head>
 <body>
 
@@ -18,11 +18,11 @@
                 <i class="fas fa-bars"></i>
             </button>
             <ul class="nav-menu">
-                <li class="nav-menu-item"><a href="#hero" class="nav-menu-link">Inicio</a></li>
-                <li class="nav-menu-item"><a href="#sobremi" class="nav-menu-link">Sobre mí</a></li>
+                <li class="nav-menu-item"><a href="#hero" class="nav-menu-link">Home</a></li>
+                <li class="nav-menu-item"><a href="#aboutme" class="nav-menu-link">About Me</a></li>
                 <li class="nav-menu-item"><a href="#skills" class="nav-menu-link">Skills</a></li>
-                <li class="nav-menu-item"><a href="#proyectos" class="nav-menu-link">Proyectos</a></li>
-                <li class="nav-menu-item"><a href="#contacto" class="nav-menu-link">Contacto</a></li>
+                <li class="nav-menu-item"><a href="#projects" class="nav-menu-link">Projects</a></li>
+                <li class="nav-menu-item"><a href="#contact" class="nav-menu-link">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -31,8 +31,8 @@
         <section class="hero__main container" id="hero">
             <div class="hero__texts">
                 <h1 class="hero__title">William Manchabajoy</h1>
-                <h2 class="hero__copy">Desarrollador Web Frontend</h2>
-                <a href="#sobremi" class="hero__cta">Saber más</a>
+                <h2 class="hero__copy">Frontend Web Developer</h2>
+                <a href="#aboutme" class="hero__cta">Know more</a>
             </div>
             <figure class="hero__img">
                 <img src="img/undraw_heatmap_uyye.svg" alt="imagen desarrollo web - seccion hero" class="hero__picture">
@@ -42,19 +42,10 @@
     </header>
 
     <main class="main">
-        <section class="about container" id="sobremi">
+        <section class="about container" id="aboutme">
             <div class="about__texts">
-                <h2 class="title">Sobre mí</h2>
-                <p class="about__paragraph">Soy un Desarrollador Web Frontend
-                    autodidacta con más de 6 meses de
-                    experiencia, hice un bootcamp en 2020
-                    con énfasis en JavaScript, HTML, CSS,
-                    Node.js, Express, React.js. Me gusta
-                    aprender y trabajar en equipo. También
-                    tengo experiencia en el diseño y ejecución
-                    de campañas de marketing digital. Mi nivel de inglés es B1.
-                    Actualmente estoy estudiando Desarrollo Web en la Universidad Industrial de Santander
-                    de manera virtual.</p>
+                <h2 class="title">About Me</h2>
+                <p class="about__paragraph">I am a self-taught Frontend Web Developer with more than 6 months of experience, my skills are based on JavaScript, HTML, CSS, Node.js, Express and React.js. I've got experience designing and executing digital marketing campaigns. My English level is B1. I am currently studying Web Development online at the Industrial University of Santander</p>
             </div>
             <figure class="about__img">
                 <img src="img/undraw_developer_activity_re_39tg.svg" alt="" class="about__picture">
@@ -73,50 +64,53 @@
             </div>
         </section>
 
-        <section class="portfolio" id="proyectos">
+        <section class="portfolio" id="projects">
             <div class="portfolio__container container">
-                <h2 class="title">Proyectos</h2>
+                <h2 class="title">Projects</h2>
                 <div class="portfolio__cards">
                     <article class="portfolio__card">
                         <img src="img/card1.png" alt="Proyecto Movie App TMDB" class="portfolio__picture">
                         <div class="portfolio__texts">
                             <h3 class="portfolio__title">Movie App - TMDB</h3>
-                            <p class="portfolio__paragraph">Página web diseñada para mostrar películas de la API <a href="https://www.themoviedb.org/?language=es" target="_blank">TMDB</a>.
-                                Se utilizó React.js, MongoDB, Node.js y Express. La página
-                                permite almacenar al usuario sus películas favoritas en su
-                                cuenta. Para acceder a todo el contenido el usuario debe
-                                registrarse con sus datos personales y luego iniciar sesión en
-                                la cuenta.</p>
+                            <p class="portfolio__paragraph">Website to display movies fetched from the <a href="https://www.themoviedb.org/?language=es" target="_blank">TMDB </a>API.
+                                It’s been designed with React.js, MongoDB, Node.js and Express
+                                and is responsive on mobiles and tablets. Also, the user is able
+                                to select and add it´s favorite movies to a list. To get access to
+                                all movie content the user should sign up on register page to
+                                create an account and then login into it.
+                            </p>
                         </div>
-                        <a href="https://tmdb-wrmp91.herokuapp.com/" class="portfolio__cta" target="_blank">Ver Proyecto</a>
+                        <a href="https://tmdb-wrmp91.herokuapp.com/" class="portfolio__cta" target="_blank">Check it out</a>
                     </article>
 
                     <article class="portfolio__card">
                         <img src="img/card2.png" alt="Proyecto Cocinas y Closets" class="portfolio__picture">
                         <div class="portfolio__texts">
-                            <h3 class="portfolio__title">Cocinas & Closets</h3>
-                            <p class="portfolio__paragraph">Sitio web diseñado en la plataforma WordPress. Permite al
-                                cliente seleccionar cocinas integrales y closets con diseños
-                                personalizados, elaborados en material melamínico.
+                            <h3 class="portfolio__title">Cocinas & Closets Website</h3>
+                            <p class="portfolio__paragraph">It’s based on WordPress platform. This site allows the
+                                customer to get in touch with factory in regards to order
+                                whether kitchens or closets made up in melamine panels with
+                                custom designs.
                             </p>
                         </div>
-                        <a href="https://cocinasyclosets.co/" class="portfolio__cta" target="_blank">Ver Proyecto</a>
+                        <a href="https://cocinasyclosets.co/" class="portfolio__cta" target="_blank">Check it out</a>
                     </article>
 
                     <article class="portfolio__card">
                         <img src="img/card3.png" alt="Proyecto Weather App" class="portfolio__picture">
                         <div class="portfolio__texts">
                             <h3 class="portfolio__title">Weather App</h3>
-                            
-                            <p class="portfolio__paragraph">Esta es una aplicación basada en la API 
-                                <a href="https://openweathermap.org/" target="_blank">OpenWeatherNow,</a> 
-                                es una página estática que
-                                muestra los datos de pronóstico del clima para Bogotá y Paris.
-                                Está soportada en JavaScript, HTML y CSS y es responsiva en
-                                tabletas y celulares.
+                            <p class="portfolio__paragraph">This is a weather application based on 
+                                <a href="https://openweathermap.org/" target="_blank">OpenWeatherNow</a> API, 
+                                It's a static page in which renders weather forecast data for two specific locations:
+                                Bogotá, COL, and France (Lyon, Paris). Front-end code is
+                                supported in HTML and CSS. Back-end code was typed in
+                                JavaScript. The way to fetch data info from the API server is
+                                XMLHTTPrequest. The application is responsive on tablets and
+                                cellphones.
                             </p>
                         </div>
-                        <a href="https://wrafael91.github.io/" class="portfolio__cta" target="_blank">Ver Proyecto</a>
+                        <a href="https://wrafael91.github.io/" class="portfolio__cta" target="_blank">Check it out</a>
                     </article>
                 </div>
             </div>
@@ -124,20 +118,20 @@
     </main>
 
     <footer class="footer">
-        <section class="footer__container container" id="contacto">
+        <section class="footer__container container" id="contact">
             <div class="footer__texts">
-                <h2 class="title">Contáctame</h2>
+                <h2 class="title">Contact me</h2>
                 <div class="footer__icons">
                     <a href="https://twitter.com/wrafael_mp" class="footer__icon fab fa-twitter" target="_blank"></a>
                     <a href="https://www.linkedin.com/in/william-manchabajoy/" class="footer__icon fab fa-linkedin-in" target="_blank"></a>
                     <a href="https://www.instagram.com/wrafael_mp/" class="footer__icon fab fa-instagram" target="_blank"></a>
                 </div>
                 <nav class="footer__nav">
-                    <a href="#hero" class="footer__link">Inicio</a>
-                    <a href="#sobremi" class="footer__link">Sobre mí</a>
-                    <a href="#proyectos" class="footer__link">Proyectos</a>
+                    <a href="#hero" class="footer__link">Home</a>
+                    <a href="#aboutme" class="footer__link">About Me</a>
+                    <a href="#projects" class="footer__link">Projects</a>
                 </nav>
-                <p class="footer__copy">Derechos Reservados &copy; 2022 - William Manchabajoy</p>
+                <p class="footer__copy">All rights reserved &copy; 2022 - William Manchabajoy</p>
             </div>
 
             <figure class="footer__img">
