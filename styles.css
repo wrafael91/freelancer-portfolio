@@ -201,9 +201,18 @@ body {
 }
 
 .skills__picture {
-    width: 20%;
+    width: 100%;
     height: 100px;
 }
+
+.skill__item {
+    text-align: center;
+}
+
+.skill_label {
+    font-size: 20px;
+}
+
 
 /* Sección portafolio */
 
@@ -505,8 +514,12 @@ body {
     }
 
     .skills__picture {
-        width: 35%;
-        margin-bottom: 30px;
+        width: 70%;
+        margin-bottom: 10px;
+    }
+
+    .skill_label {
+        font-size: 18px;
     }
 
     /* Footer */
